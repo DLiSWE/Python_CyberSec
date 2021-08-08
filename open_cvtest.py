@@ -4,9 +4,9 @@ import cv2
 
 from scapy.all import *
 
-pictures_directory = "/home/root/pic_carver/pictures"
-faces_directory = "/home/root/pic_carver/faces"
-pcap_file = "/root/code/bfor-206-1pm/vm_share/images5.pcap"
+pictures_directory = "picture_directory"
+faces_directory = "new directory with filtered images"
+pcap_file = "pcap file"
 
 def get_http_headers(http_payload):
     try:
